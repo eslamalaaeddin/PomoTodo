@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingTop="32dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="16dp"
+    tools:context="ui.MainActivity">
+
+    <TextView
+        android:id="@+id/pomodoro_label_text_view"
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pomodoro_duration" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/pomodoro_break_durations"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/green"
+        android:spinnerMode="dropdown"
+        tools:entries="@array/pomodoro_durations" />
+
+    <TextView
+        android:id="@+id/short_break_label_text_view"
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/short_break_duration" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/short_break_durations"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/blue"
+        android:spinnerMode="dropdown"
+        android:textAlignment="textStart"
+        tools:entries="@array/short_break_durations" />
+
+    <TextView
+        android:id="@+id/long_break_label_text_view"
+        style="@style/textViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/long_break_duration" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/long_break_durations"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/orange"
+        android:spinnerMode="dropdown"
+        tools:entries="@array/long_break_durations" />
+
+    <TextView
+        android:id="@+id/hint"
+        style="@style/textViewStyle"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/durations_hint" />
+
+
+
+    <CheckBox
+        android:id="@+id/animation_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/green"
+        android:checked="true"
+        android:text="@string/animation"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">إسلامودورو</string>
+    <string name="basic_channel_description">الإشعار الرئيسي</string>
+    <string name="after_finish_channel_description">إشعار بعد الانتهاء</string>
+
+    <string name="pomodoro">بومودورو</string>
+    <string name="tasks">مهام</string>
+    <string name="statistics">الإحصاءات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="toggle_button">زر البدء والإنهاء</string>
+
+    <string name="short_break_duration">مدة الراحة القصيرة:</string>
+    <string name="long_break_duration">مدة الراحة الطويلة:</string>
+    <string name="pomodoro_duration">مدة البومودورو:</string>
+    <string name="congratulations">عمل رائع!</string>
+    <string name="long_break">استراحة طويلة</string>
+    <string name="short_break">استراحة قصيرة</string>
+    <string name="skip_break">تخط الاستراحة</string>
+    <string name="animation">الحيوية</string>
+    <string name="channel_name">الإشعار الرئيسي</string>
+    <string name="foreground_channel_name">إشعار الواجهة</string>
+    <string name="foreground_channel_description">إشعار الواجهة أثناء العمل أو الاستراحة</string>
+    <string name="newtask">مهمة جديدة</string>
+    <string name="start">ابدأ</string>
+    <string name="cancel">أنهِ</string>
+    <string name="durations_hint">* الوقت بالدقائق</string>
+    <string name="title">العنوان</string>
+    <string name="description">الوصف</string>
+    <string name="add">إضافة</string>
+    <string name="update">تحديث</string>
+    <string name="no_tasks">لا مهام حتى الآن</string>
+
+
+    <string-array name="short_break_durations">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="long_break_durations">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="pomodoro_durations">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+</resources>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PomoTodo</string>
+    <string name="basic_channel_description">This is the basic notification</string>
+    <string name="after_finish_channel_description">Notification after a pomodoro/break</string>
+
+    <string name="pomodoro">Pomodoro</string>
+    <string name="tasks">Tasks</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="toggle_button">ToggleButton</string>
+
+    <string name="short_break_duration">Short break duration:</string>
+    <string name="long_break_duration">Long break duration:</string>
+    <string name="pomodoro_duration">Pomodoro duration:</string>
+    <string name="congratulations">Good job!</string>
+    <string name="long_break">Long Break</string>
+    <string name="short_break">Short Break</string>
+    <string name="skip_break">Skip Break</string>
+    <string name="animation">Animation</string>
+    <string name="channel_name">Basic notification</string>
+    <string name="foreground_channel_name">Foreground notification</string>
+    <string name="foreground_channel_description">this is the basic notification</string>
+    <string name="newtask">NewTask</string>
+    <string name="start">START</string>
+    <string name="cancel">CANCEL</string>
+    <string name="durations_hint">*all durations are in minutes</string>
+    <string name="title">title</string>
+    <string name="description">description</string>
+    <string name="update">Update</string>
+    <string name="add">add</string>
+    <string name="no_tasks">No tasks yet</string>
+
+
+    <string-array name="short_break_durations">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="long_break_durations">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="pomodoro_durations">
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+    </string-array>
+</resources>
